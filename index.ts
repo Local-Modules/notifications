@@ -1,4 +1,2 @@
-export { default as modalVisibility } from './src/modalVisibility'
-export type { ModalVisibilityProps } from './src/modalVisibility'
-
-export { openModal, closeModal, closeAllModals, getOpenedModals } from './src/manager'
+export { subscribe, unsubscribe, openNotification, closeNotification, closeAllNotifications } from './src/manager'
+export { default as Notifications } from './src/Notifications'
