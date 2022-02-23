@@ -2,7 +2,6 @@
     "compilerOptions": {
         "target": "es5",
         "typeRoots": [
-            "./src/types",
             "./node_modules/@types"
         ],
         "module": "esnext",
@@ -18,9 +17,10 @@
         "esModuleInterop": true,
         "strict": true
     },
-    "include": [
-        "./src"
-, "index.ts"    ],
+    "include": [ 
+        "./src", 
+        "index.ts" 
+    ],
     "exclude": [
         "node_modules",
         "lib",
