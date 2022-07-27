@@ -1,6 +1,6 @@
 {
   "name": "@locmod/notifications",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "@locmod",
   "license": "MIT",
   "homepage": "https://github.com/Local-Modules/notifications#readme",
@@ -23,7 +23,8 @@
     "prepublish": "npm run build && npm run test"
   },
   "peerDependencies": {
-    "react": ">=17.0.2"
+    "react": ">=17.0.2",
+    "@locmod/event-aggregator": ">=1.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.17.0",
