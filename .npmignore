@@ -1,4 +1,9 @@
-.jest.config.jest
-.rollup.config.js
+.idea
 .vscode
+
+jest.config.jest
+rollup.config.js
+tsconfig.json
+
 node_modules
+src
